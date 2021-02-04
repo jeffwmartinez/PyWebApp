@@ -35,6 +35,7 @@
   <ItemGroup>
     <Content Include="applicationHost.xdt" />
     <None Include="Properties\PublishProfiles\jefmarti-python-wa - Web Deploy.pubxml" />
+    <Content Include="Dockerfile" />
     <Content Include="requirements.txt" />
     <Content Include="web.config" />
   </ItemGroup>

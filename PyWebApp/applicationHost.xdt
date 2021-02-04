@@ -1,4 +1,4 @@
-﻿<!--<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
   <system.webServer>
     <fastCgi>
@@ -6,4 +6,4 @@
       <application fullPath="D:\home\site\wwwroot\Python36\python.exe" arguments="D:\Python36\Lib\site-packages\wfastcgi.py"  maxInstances="0" xdt:Transform="Insert"/>
     </fastCgi>
   </system.webServer>
-</configuration>-->
+</configuration>
