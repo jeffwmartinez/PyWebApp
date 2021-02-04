@@ -13,8 +13,15 @@ app = Flask(__name__)
 @app.route('/hello')
 def hello():
     # Render the page
-    return "/hello Python!"
+    return "PYTHON WORKS!"
 
 if __name__ == '__main__':
-    # Run the app server on localhost:4449
-    app.run('localhost', 4449)
+    # run on app service?
+    app.run(port=80)
+
+    # Run the app server locally with Flask
+    #app.run(port=5000, host='0.0.0.0')
+
+    # run app locally without container
+    #app.run('localhost', 4449) 
+    
